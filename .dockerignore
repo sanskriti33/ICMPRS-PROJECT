@@ -1,0 +1,7 @@
+.git
+.gitignore
+frontend-share
+frontend-share.zip
+data
+*.class
+*.log
