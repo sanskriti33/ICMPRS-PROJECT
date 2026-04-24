@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: icmprs-customer-portal
+    env: java
+    plan: free
+    buildCommand: javac -cp ".:lib/mysql-connector-j-9.7.0.jar" *.java
+    startCommand: java -cp ".:lib/mysql-connector-j-9.7.0.jar" WebServer
+    envVars:
+      - key: ICMPRS_DB_URL
+        sync: false
+      - key: ICMPRS_DB_USER
+        sync: false
+      - key: ICMPRS_DB_PASSWORD
+        sync: false
