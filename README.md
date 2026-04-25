@@ -77,3 +77,4 @@ java Main
 ```
 
 If MySQL or the MySQL connector is unavailable, the app still runs using local file storage.
+** updated by khushi**
