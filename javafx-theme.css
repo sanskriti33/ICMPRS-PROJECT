@@ -1,0 +1,227 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom, #eef4fb, #f7fbff);
+    -fx-font-family: "Segoe UI";
+}
+
+.hero {
+    -fx-background-color: linear-gradient(to right, #1d426d, #2c5b91);
+    -fx-background-radius: 0 0 26 26;
+}
+
+.portal-tag {
+    -fx-text-fill: #dfe8f6;
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+    -fx-letter-spacing: 1px;
+}
+
+.hero-title {
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+    -fx-font-weight: 800;
+}
+
+.hero-subtitle {
+    -fx-text-fill: #edf3fb;
+    -fx-font-size: 20px;
+}
+
+.storage-label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-background-color: rgba(255,255,255,0.16);
+    -fx-background-radius: 18;
+    -fx-padding: 14 18 14 18;
+}
+
+.panel-card {
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-border-color: #cfdbeb;
+    -fx-border-radius: 22;
+}
+
+.sub-card {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-border-color: #d7e2f0;
+    -fx-border-radius: 20;
+}
+
+.stat-card {
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-border-color: #d6e0ef;
+    -fx-border-radius: 22;
+}
+
+.navy-card {
+    -fx-border-width: 0 0 0 8;
+    -fx-border-color: #183558;
+}
+
+.red-card {
+    -fx-border-width: 0 0 0 8;
+    -fx-border-color: #db4b4b;
+}
+
+.orange-card {
+    -fx-border-width: 0 0 0 8;
+    -fx-border-color: #f59a3d;
+}
+
+.green-card {
+    -fx-border-width: 0 0 0 8;
+    -fx-border-color: #15926b;
+}
+
+.stat-title {
+    -fx-text-fill: #4f6687;
+    -fx-font-size: 16px;
+}
+
+.stat-value {
+    -fx-text-fill: #183558;
+    -fx-font-size: 40px;
+    -fx-font-weight: 800;
+}
+
+.section-heading {
+    -fx-text-fill: #173a68;
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+}
+
+.sub-heading {
+    -fx-text-fill: #173a68;
+    -fx-font-size: 18px;
+    -fx-font-weight: 800;
+}
+
+.field-label {
+    -fx-text-fill: #173a68;
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+}
+
+.text-field, .text-area, .combo-box {
+    -fx-background-color: white;
+    -fx-background-radius: 16;
+    -fx-border-color: #89a3c7;
+    -fx-border-radius: 16;
+    -fx-font-size: 15px;
+    -fx-padding: 10 14 10 14;
+}
+
+.text-area .content {
+    -fx-background-color: white;
+    -fx-background-radius: 16;
+}
+
+.button {
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+    -fx-background-radius: 16;
+    -fx-padding: 12 18 12 18;
+    -fx-cursor: hand;
+}
+
+.dark-button {
+    -fx-background-color: #121212;
+    -fx-text-fill: white;
+}
+
+.soft-button {
+    -fx-background-color: #e8f0fb;
+    -fx-text-fill: #173a68;
+    -fx-border-color: #b8cbe4;
+    -fx-border-radius: 16;
+}
+
+.success-button {
+    -fx-background-color: #14916c;
+    -fx-text-fill: white;
+}
+
+.danger-button {
+    -fx-background-color: white;
+    -fx-text-fill: #ef4b4b;
+    -fx-border-color: #f0b8b8;
+    -fx-border-radius: 16;
+}
+
+.info-box {
+    -fx-background-color: #f3f8ff;
+    -fx-background-radius: 18;
+    -fx-border-color: #d7e4f4;
+    -fx-border-radius: 18;
+    -fx-padding: 14;
+}
+
+.info-title {
+    -fx-text-fill: #173a68;
+    -fx-font-size: 16px;
+    -fx-font-weight: 800;
+}
+
+.info-body {
+    -fx-text-fill: #23476f;
+    -fx-font-size: 15px;
+}
+
+.result-box {
+    -fx-background-color: #eef4fd;
+    -fx-background-radius: 16;
+    -fx-border-color: #d6e2f2;
+    -fx-border-radius: 16;
+    -fx-padding: 14;
+    -fx-text-fill: #173a68;
+    -fx-font-size: 15px;
+}
+
+.complaint-table {
+    -fx-background-color: white;
+    -fx-border-color: #d6e2f2;
+    -fx-border-radius: 18;
+    -fx-background-radius: 18;
+}
+
+.complaint-table .column-header-background {
+    -fx-background-color: #17304d;
+    -fx-background-radius: 18 18 0 0;
+}
+
+.complaint-table .column-header,
+.complaint-table .filler {
+    -fx-background-color: transparent;
+    -fx-size: 50;
+    -fx-border-color: transparent;
+}
+
+.complaint-table .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: 800;
+}
+
+.complaint-table .table-row-cell {
+    -fx-background-color: #fff6dc;
+    -fx-border-color: #e8eef8;
+}
+
+.complaint-table .table-row-cell:selected {
+    -fx-background-color: #d9eaff;
+}
+
+.complaint-table .table-cell {
+    -fx-font-size: 15px;
+    -fx-text-fill: #183558;
+    -fx-padding: 10 8 10 8;
+}
+
+.footer-text {
+    -fx-text-fill: #4a6487;
+    -fx-font-size: 13px;
+    -fx-font-weight: 600;
+}
